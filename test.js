@@ -1,4 +1,4 @@
-function parkingSpaces(n, y, t) {
+/* function parkingSpaces(n, y, t) {
   let count = 0;
   for (let i = 0; i < n; i++) {
     if (y[i] === "C" && t[i] === "C") {
@@ -8,3 +8,33 @@ function parkingSpaces(n, y, t) {
   return count;
 }
 console.log(parkingSpaces(7, "C..C..C", "CCC.CC."));
+ */
+/* function decimalBinary(decimal) {
+  let binary = "";
+  while (((i = 8), i > 0, (i -= 1)) && decimal > 0) {
+    if ((2 ^ i) < decimal) {
+      decimal -= 2 ^ i;
+      binary.concat("1");
+    } else {
+      binary.concat("0");
+    }
+  }
+  return binary;
+}
+
+console.log(decimalBinary(17));
+ */
+
+function decimalBinary(decimal) {
+  let binary = "";
+  i = 0;
+  while (decimal > 0);
+  i++;
+  if (decimal % (2 ^ i) === 1) {
+    binary.concat("1");
+  } else {
+    binary.concat("0");
+  }
+  console.log(binary);
+}
+decimalBinary(17);

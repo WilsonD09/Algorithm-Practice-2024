@@ -90,8 +90,18 @@ if (opponentChoice == "rock") {
 }
 ```
 
-This is the selection
+Binary to Decimal
 
-```javascript
+1. n = length of binary
+2. split binary into individual numbers
+3. for each value check if value = 1
+4. if value = 1 add 2^n power to decimal
+5. after each do n-=1
+6. return decimal
 
-```
+Decimal to Binary
+for i = 8; i>0; i-=1; decimal < 0{
+if 2^i < decimal{
+decimal -= 2^i
+}
+}
