@@ -41,7 +41,7 @@ console.log(binaryNumber);*/
 }
 
 console.log(decimalBinary(17));
-
+ */
 function decimaltoBinary(decimal) {
   let binary = "";
   while (decimal > 1) {
@@ -52,5 +52,4 @@ function decimaltoBinary(decimal) {
   return binary;
 }
 
-console.log(decimaltoBinary(176)); */
-console.log("hello world");
+console.log(decimaltoBinary(176));
